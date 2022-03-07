@@ -21,7 +21,7 @@ img {
     color:rgb(163, 120, 55);
 }
 
-.link-main{
+.link-main {
     font-size: 25px;
 }
 
@@ -30,4 +30,10 @@ ul,
     background-color: navajowhite;
     font-weight: bold;
     font-style: oblique;
+}
+
+
+/* fix div and * @ top issues, ie background color, etc*/
+div {
+    background-color: ;
 }
