@@ -1,4 +1,4 @@
-*,
+body,
 .link-main {
     color: rgb(163, 120, 55);
     background-color: whitesmoke;
@@ -30,10 +30,4 @@ ul,
     background-color: navajowhite;
     font-weight: bold;
     font-style: oblique;
-}
-
-
-/* fix div and * @ top issues, ie background color, etc*/
-div {
-    background-color: ;
 }
