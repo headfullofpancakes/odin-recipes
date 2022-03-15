@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-body,
-.link-main {
+body {
     color: rgb(163, 120, 55);
     background-color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -26,6 +25,7 @@ img {
     border-bottom: 5px double;
     border-top: 5px double;
     padding: 10px;
+    text-align: center;
 }
 
 #main-main {
@@ -34,27 +34,22 @@ img {
     text-align: center;
 }
 
-.link-main {
-    font-size: ;
-}
-
 .food-parent {
     display: flex;
-
 }
 
 .food-parent div {
-    flex: 1;
     background: navajowhite;
     color:rgb(163, 120, 55);
     padding-top: 100px;    
     border: 5px solid rgb(211, 166, 99);
     margin: 10px;
     height: 300px;
-    width: 500px;
+    width: 300px;
     font-weight: bold;
     text-align: center;
     font-size: 30px;
+    flex: 1;
 }
 
 ul,
